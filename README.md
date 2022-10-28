@@ -62,6 +62,31 @@ branch 만들기
 </br>
 </br>
 
+### ⚡ fork
+
+원하는 repository fork한 후</br>
+`git clone <fork한 내 repository>`
+
+신나게 코딩하기 ~ 🔥
+
+`git push origin <내 branch || master 등 main branch>`
+
+pull request 보내기!
+
+👌 오케 확인 merge!
+
+받아올 때는 </br>
+
+**방법 1**
+github 내 repositoy에서 `sync fork`
+
+**방법 2**
+
+1. `git remote add upstream <fork한 원본 주소>` </br>
+   upstream 주소를 원격으로 등록
+2. `$ git pull upstream master`</br>
+   내 로컬 저장소로 upsteam 저장소에 있는 것을 Pull
+
 ### ⚡ 기타
 
 `touch signout.txt`</br>
@@ -69,6 +94,16 @@ branch 만들기
 
 </br>
 </br>
+
+### ⚡ git flow
+
+**2010년 Vincent Driessen이 제안한 git branch 전략**
+
+- master: 제품으로 출시될 수 있는 브랜치
+- develop : 다음 출시 버전 개발
+- feature: 기능 개발
+- release: 이번 출시 버전을 준비하는 브랜치
+- hotfix: 출시 버전에서 발생한 버그를 수정하는 브랜치
 
 ### ⚡ 아직 정리하지 않은 내용들
 
